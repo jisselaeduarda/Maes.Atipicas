@@ -12,8 +12,3 @@ async function enviarMensagem(texto) {
   console.log('Resposta:', data);
 }
 
-// Teste com uma mensagem boa
-enviarMensagem('olá, tudo bem?');
-
-// Teste com palavrão
-enviarMensagem('Porra');

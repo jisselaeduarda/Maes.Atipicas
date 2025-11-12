@@ -1,16 +1,15 @@
-import express from "express";
-import cors from "cors";
-import dotenv from "dotenv";
+import express from 'express';
+import dotenv from 'dotenv';
+import connection from './src/db.js';
 
 dotenv.config();
 const app = express();
-
-app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("API do Blog das Mães Atípicas está rodando ✨");
+app.get('/', (req, res) => {
+  res.send('Servidor do projeto Mães Atípicas está rodando 💜');
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
+app.listen(process.env.PORT, () => {
+  console.log(`🚀 Servidor rodando na porta ${process.env.PORT}`);
+});
