@@ -1,24 +1,29 @@
-# 🌸 Mães Atípicas
+# 🌷 Mães Atípicas
 
-## 💬 Sobre o projeto
-O **Mães Atípicas** é um blog e comunidade criada para dar voz às mães que vivem uma maternidade fora do padrão — aquelas que enfrentam desafios únicos com seus filhos e, muitas vezes, não têm um espaço seguro para desabafar.
+Projeto desenvolvido com foco em criar um espaço acolhedor para mães atípicas compartilharem experiências, desafios e vivências reais.
 
-Aqui, as mães podem **compartilhar histórias, buscar conselhos e receber apoio sem julgamentos**.  
-O projeto permite postagens tanto **anônimas** quanto **com login**, promovendo liberdade e acolhimento.
+## 🚀 Tecnologias
 
----
+- HTML
+- CSS
+- JavaScript
+- Node.js
 
-## 🚀 Tecnologias utilizadas
-- **Node.js** — backend da aplicação  
-- **Express.js** — gerenciamento de rotas e servidor  
-- **MongoDB (ou outro banco, se for o caso)** — armazenamento das postagens e usuários  
-- **EJS / React / HTML/CSS** — renderização das páginas (ajustar conforme o que você usa)  
-- **bcrypt / JWT** — autenticação e segurança de login (se aplicável)
+## ✨ Objetivo
 
----
+Este projeto faz parte do meu desenvolvimento como estudante de Engenharia de Software e Backend.
 
-## 🛠️ Instalação e execução local
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/jisselaeduarda/Maes.Atipicas.git
-   cd Maes.Atipicas
+Além do aprendizado técnico, o objetivo é criar um ambiente humano, acessível e acolhedor para mães atípicas.
+
+## 📚 Funcionalidades futuras
+
+- Página de relatos
+- Sistema de posts
+- Login
+- Comentários
+- Área administrativa
+- API backend
+
+## 💻 Status
+
+🚧 Em desenvolvimento
